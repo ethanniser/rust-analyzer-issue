@@ -1,3 +1,6 @@
+use uncased::Uncased;
+
 fn main() {
-    println!("Hello, world!");
+    let s: Uncased = "hello world".into();
+    println!("{}", s);
 }
